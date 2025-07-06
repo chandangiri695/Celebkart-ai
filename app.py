@@ -44,3 +44,7 @@ st.markdown("### 🔊 Voice Description:")
 audio_path = generate_tts(description if language == "English" else translated, language)
 st.audio(audio_path)
 
+# Share option (for WhatsApp/web)
+st.markdown("📤 Share your AI result with friends!")
+st.text(f"Outfit AI: {description}")
+
