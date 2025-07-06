@@ -1,6 +1,6 @@
 streamlit
 transformers
-gtts
-pillow
-deep-translator
 torch
+pillow
+gtts
+deep-translator
