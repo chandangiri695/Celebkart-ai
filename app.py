@@ -6,7 +6,11 @@ from PIL import Image
 @st.cache_resource
 def load_model():
     processor = BlipProcessor.from_pretrained("Salesforce/blip-image-captioning-base")
-    model = BlipForConditionalGeneration.from_pretrained("Salesforce/blip-image-captioning-base")
+    # Replace this:
+# model = BlipForConditionalGeneration.from_pretrained("Salesforce/blip-image-captioning-base")
+
+# With this:
+model = BlipForConditionalGeneration.from_pretrained("Salesforce/blip-image-captioning-large")
     return processor, model
 
 processor, model = load_model()
