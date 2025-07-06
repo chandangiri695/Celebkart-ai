@@ -1,4 +1,6 @@
 streamlit
 transformers
+gtts
+pillow
+deep-translator
 torch
-Pillow
