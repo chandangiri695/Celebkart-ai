@@ -4,7 +4,7 @@ from PIL import Image
 
 st.set_page_config(page_title="Celebkart AI", layout="centered")
 st.title("👗 Celebkart AI - Celebrity Outfit Identifier")
-st.caption("Upload any celebrity photo. AI will describe their outfit automatically.")
+st.caption("Upload any celebrity photoC. AI will describe their outfit automatically.")
 
 @st.cache_resource
 def load_model():
