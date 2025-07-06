@@ -10,7 +10,7 @@ from io import BytesIO
 from gtts import gTTS
 import os
 from tempfile import NamedTemporaryFile
-Load BLIP model
+#Load BLIP model
 
 processor = BlipProcessor.from_pretrained("Salesforce/blip-image-captioning-base") model = BlipForConditionalGeneration.from_pretrained("Salesforce/blip-image-captioning-base")
 
