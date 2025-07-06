@@ -1,7 +1,15 @@
 # Celebkart v2.0 - Advanced Outfit Identifier with Affiliate Integration
 
-import streamlit as st from transformers import BlipProcessor, BlipForConditionalGeneration from PIL import Image import requests from io import BytesIO from gtts import gTTS import os from tempfile import NamedTemporaryFile
+# Celebkart v2.0 - Advanced Outfit Identifier with Affiliate Integration
 
+import streamlit as st
+from transformers import BlipProcessor, BlipForConditionalGeneration
+from PIL import Image
+import requests
+from io import BytesIO
+from gtts import gTTS
+import os
+from tempfile import NamedTemporaryFile
 Load BLIP model
 
 processor = BlipProcessor.from_pretrained("Salesforce/blip-image-captioning-base") model = BlipForConditionalGeneration.from_pretrained("Salesforce/blip-image-captioning-base")
